@@ -1,0 +1,92 @@
+
+<style>
+    body{        
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+    .container1{
+	    width: 100%;
+		color: #333;
+		text-align: center;
+		background: #A6ACAF;
+		padding: 30px;
+		auto; /* Center the DIV horizontally */
+		padding-top: 40px;
+        padding-bottom: 40px;
+		margin-top: 50px;
+        margin-bottom: 10px;
+		}
+	.container2{
+	    width: 100%;
+		color: #333;
+		text-align: center;
+		background: #A6ACAF;
+		padding: 30px;
+		padding-top: 40px;
+        padding-bottom: 40px;
+		margin-top: 10px;
+        margin-bottom: 10px;
+    }
+	.grid-container {
+	width: 100%;
+		color: #333;
+		text-align: center;
+		background: #F7F9F9;
+		padding-top: 40px;
+        padding-bottom: 40px;
+		margin-top: 10px;
+        margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 5px;
+}
+.article
+	{
+	background: #FDFEFE;
+	padding: 20px;
+	}
+	.article-h1h2h3
+	{
+	background: #A6ACAF;
+	padding: 20px;
+	}
+	.article-p
+	{
+	margin-top:10px;
+	background: #A6ACAF;
+	padding: 20px;
+	}
+	.section1
+	{
+	width: 90%;
+	background: #A6ACAF;
+	padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+	align: left;
+	height:140px;
+	}
+	.section2
+	{
+	width: 100%;
+	background: #A6ACAF;
+	padding: 50px;
+	align:right;
+	height:140px;
+	}
+    .fixed-header, .footer{
+        width: 100%;
+        position: fixed;        
+        background: #A6ACAF;
+        padding: 10px;
+        color: #333;
+		text-align: center;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    }
+    </style>
